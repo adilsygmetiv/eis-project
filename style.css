@@ -1,0 +1,30 @@
+:root{
+    --secondFont: "Lato", sans-serif;
+    --mainColor:  rgba(234, 0, 0, 1);
+    --secondaryColor:rgba(242, 245, 246, 1);
+
+
+}
+
+body{
+    font-family: var(--secondFont);
+}
+
+.dropdown-menu{
+    filter: blur(0.5);
+    padding: 0.5rem;
+}
+
+.dropdown-item:hover{
+    background-color: var(--mainColor);
+    color: white;
+    border-radius: .5rem;
+}
+
+.active{
+    color: var(--mainColor)!important;
+}
+.main{
+    font-family: var(--secondFont);
+    /* color: green; */
+}
