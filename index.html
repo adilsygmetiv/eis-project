@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<br lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -12,59 +12,536 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary p-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./assets/eis logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item mx-4">
-                            <a class="nav-link fs-3 active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item mx-4">
-                            <a class="nav-link fs-3" href="#">About</a>
-                        </li>
-                        <li class="nav-item dropdown mx-4">
-                            <a class="nav-link dropdown-toggle fs-3" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Solutions
-                            </a>
-                            <ul class="dropdown-menu bg-transparent">
-                                <li><a class="dropdown-item dropdown-item-hover " href="#">Audio Visual ICT Solution</a></li>
-                                <li><a class="dropdown-item " href="#">Digital Media Creation</a></li>
-                                <li><a class="dropdown-item " href="#">Home Cinemas</a></li>
-                                <li><a class="dropdown-item " href="#">Automation & Security</a></li>
-                                <li><a class="dropdown-item " href="#">IT & Networking</a></li>
-                                <li><a class="dropdown-item " href="#">Electrical Solutions</a></li>
-                                <li><a class="dropdown-item " href="#">Flow Control & Comprehensive Solutions</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item mx-4">
-                            <a class="nav-link fs-3" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+
+<header style="height: 100%;">
+    <nav class="navbar navbar-expand-lg p-3 py-3 mx-5 ">
+        <div class="container-fluid">
+            <div class="row">
+                <a class="navbar-brand " href="#"><img src="./assets/eis logo.png" class="w-25 d-md-none" alt=""></a>
+                <a class="navbar-brand " href="#"><img src="./assets/eis logo.png"
+                        class="d-sm-none d-md-block w-75 d-none" alt=""></a>
             </div>
-        </nav>
-    </header>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-4">
+                        <a class="nav-link fs-1 active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link fs-1" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown mx-4">
+                        <a class="nav-link dropdown-toggle fs-1" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Solutions
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item dropdown-item-hover fs-4" href="#">Audio Visual ICT Solution</a>
+                            </li>
+                            <li><a class="dropdown-item fs-4" href="#">Digital Media Creation</a></li>
+                            <li><a class="dropdown-item fs-4" href="#">Home Cinemas</a></li>
+                            <li><a class="dropdown-item fs-4" href="#">Automation & Security</a></li>
+                            <li><a class="dropdown-item fs-4" href="#">IT & Networking</a></li>
+                            <li><a class="dropdown-item fs-4" href="#">Electrical Solutions</a></li>
+                            <li><a class="dropdown-item fs-4" href="#">Flow Control & Comprehensive Solutions</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link fs-1 " href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <!-- desktop  -->
+        <div class="d-none d-lg-block">
+            <h1 class="text-white text-uppercase position-absolute z-3 mgx-9 ps-5" style="bottom: 0%;">
+                Seamless Solutions for a </br>
+                Connected World
+            </h1>
+        </div>
+        <!-- tab  -->
+        <div class="d-none d-sm-flex d-lg-none">
+            <h1 class="text-white text-uppercase position-absolute z-3 mgx-9 ps-5 text-center" style="
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);">
+                Seamless Solutions for a </br>
+                Connected World
+            </h1>
+        </div>
+        <!-- mobile  -->
+        <div class="d-block d-sm-none">
+            <h1 class="text-white text-uppercase position-absolute z-3 mgx-9 text-center" style="top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3.5rem;">
+                Seamless Solutions</br> for a
+                Connected World
+            </h1>
+        </div>
+        <img src="./assets/home/hero-img.jpeg" class="img-fluid w-100"
+            style="filter: brightness(.5); height: 90vh; object-fit: cover;">
+    </div>
+</header>
+
+<!-- client section   -->
+<div class="d-flex justify-content-center align-items-center mgx-4">
+    <div class="d-flex flex-row justify-content-center align-items-center gap-5">
+        <h5>client</h5>
+        <h5>client</h5>
+        <h5>client</h5>
+        <h5>client</h5>
+        <h5>client</h5>
+        <h5>client</h5>
+    </div>
+</div>
+<!-- xxxxxxxxxxx client section xxxxxxxxxxx   -->
+
+<!-- skilled experts section   -->
+<div class="skiiled-bg">
+    <!-- desktop  -->
+    <div class="container pt-5 d-none d-sm-block">
+        <h2 class="text-white py-5">Skilled Experts and Technicians</h2>
+        <img src="./assets/home/skilled experts.jpg" class="rounded img-fluid " alt="">
+    </div>
+
+
+    <!-- mobile  -->
+    <div class="container pt-5 d-sm-none d-flex flex-column align-items-center">
+        <h2 class="text-white py-5 text-center">Skilled Experts and Technicians</h2>
+        <img src="./assets/home/skilled experts.jpg" class="rounded img-fluid  w-75" alt="">
+    </div>
+</div>
+<!-- xxxxxxxxxxx skilled experts section xxxxxxxxxxx   -->
+
+<!-- certified exelence section   -->
+<div class="container py-5">
+
+    <div class="d-flex flex-row py-5 justify-content-between align-items-center mgx-10 d-none d-md-flex">
+        <div class="d-flex flex-column justify-content-center gap-5">
+            <h2>Certified Excellence</h2>
+            <h6>Empowering your business with globally recognized standard</h6>
+        </div>
+        <div class="row d-flex flex-row justify-content-end gap-3">
+            <div class="col-md-3 certified-color rounded p-4 d-flex flex-column gap-4">
+                <img src="./assets/home/vector 1.png" class="img-fluid w-50" alt="">
+                <h5><span class="textblue">ISO 9001:2015</span> Quality Management</h5>
+                <p>Our commitment to quality ensures that we consistently meet customer expectations, delivering the
+                    best in class.</p>
+            </div>
+            <div class="col-md-3 certified-color rounded p-4 d-flex flex-column gap-4">
+                <img src="./assets/home/vector 2.png" class="img-fluid w-50" alt="">
+                <h5> <span class="textred">ISO 45001:2018</span> Occupational Health & Safety</h5>
+                <p>Safety is our priority. We maintain the highest standards to safeguard our workforce and enhance
+                    productivity.</p>
+            </div>
+            <div class="col-md-3 certified-color rounded p-4 d-flex flex-column gap-4">
+                <img src="./assets/home/vector 3.png" class="img-fluid w-50" alt="">
+                <h5> <span class="textgreen">ISO 14001:2015</span> Environmental Management</h5>
+                <p>We integrate eco-friendly practices into every step of our operations, promoting sustainability and
+                    reducing our environmental footprint.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex flex-column py-5 justify-content-between mgx-10 d-md-none">
+        <div class="d-flex flex-column justify-content-center align-items-center gap-5">
+            <h1>Certified Excellence</h1>
+            <h4>Empowering your business with </br>globally recognized standard</h4>
+        </div>
+        <div class="row d-flex flex-column justify-content-center align-items-center mt-5 mgx-4 gap-5">
+            <div class="align-items-center col-8 col-md-3 certified-color rounded p-5 py-5 d-flex flex-column gap-4">
+                <img src="./assets/home/vector 1.png" class="img-fluid w-50" alt="">
+                <h3 class="text-center"><span class="textblue">ISO 9001:2015</span></br>
+                    Quality Management</h5>
+                    <h5 class="text-center">Our commitment to quality ensures that we consistently meet customer
+                        expectations, delivering the best in class.</h5>
+            </div>
+            <div class="align-items-center col-8 col-md-3 certified-color rounded p-5 py-5 d-flex flex-column gap-4">
+                <img src="./assets/home/vector 2.png" class="img-fluid w-50" alt="">
+                <h3 class="text-center"> <span class="textred">ISO 45001:2018</span> </br>
+                    Occupational Health & Safety</h5>
+                    <h5>Safety is our priority. We maintain the highest standards to safeguard our workforce and enhance
+                        productivity.</h5>
+            </div>
+            <div class="align-items-center col-8 col-md-3 certified-color rounded p-5 py-5 d-flex flex-column gap-4">
+                <img src="./assets/home/vector 3.png" class="img-fluid w-50" alt="">
+                <h3 class="text-center"> <span class="textgreen">ISO 14001:2015</span> Environmental Management</h3>
+                <h5>We integrate eco-friendly practices into every step of our operations, promoting sustainability and
+                    reducing our environmental footprint.</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- xxxxxxxxxxx certified exelence section xxxxxxxxxxx   -->
+
+<!-- connection industried section   -->
+<div class="container ">
+    <div class="row mgx-10">
+        <div class="col-6 justify-content-between d-none d-md-flex">
+            <img src="./assets/home/connection-ind.jpeg" class="w-75 rounded"
+                style="width: 100%; height: 50rem; object-fit: cover;" alt="">
+        </div>
+        <div class="col-6 d-flex justify-content-center align-items-center d-none d-md-flex">
+            <h1>Connecting Industries with </br> <span class="textred">Advanced Solutions</span> </h2>
+        </div>
+    </div>
+</div>
+<!-- mobile  -->
+<div class="d-block d-sm-none bg-img justify-content-center align-items-center">
+    <div class="d-flex justify-content-center align-items-center z-2" style="height: 100%;">
+        <h1 class="text-white text-center"
+            style="font-size: 5rem;">Connecting
+            Industries with Advanced Solutions</h1>
+    </div>
+</div>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
+</div>
+<!-- xxxxxxxxxxx connection industried section xxxxxxxxxxx   -->
+
+<!-- what we do section   -->
+<div class="container d-flex flex-column gap-5 d-none d-md-flex">
+    <div class="d-flex justify-content-between align-items-center">
+        <h2>What <span class="textred">We</span> Do</h2>
+        <p class="d-flex gap-3 justify-content-center align-items-center">See All <i
+                class="fa-solid fa-arrow-right"></i> </p>
+    </div>
+    <div class="row justify-content-between my-5">
+        <div class="col-md-3 card border-0 rounded shadow p-0 cards">
+            <img src="./assets/home/Audio Visual ICT Solution.jpeg" class="card-img-top"
+                style="height: 20rem; object-fit: cover;" alt="...">
+            <div class="card-body px-4 py-3">
+                <h5 class="card-title mb-3">Audio Visual ICT Solution</h5>
+                <p class="card-text textgray">Video Conferencing Systems Digital </p>
+                <p class="card-text textgray"> Signages Professional Audio Systems </p>
+                <p class="card-text textgray"> Theatre & Stage AV Solutions ICT Solutions </p>
+                <p class="card-text textgray">BGM & PA System Outdoor Music System & Indoor Music System</p>
+            </div>
+        </div>
+        <div class="col-md-3 card border-0 rounded shadow p-0 cards">
+            <img src="./assets/home/Digital Media Creation.jpeg" class="card-img-top"
+                style="height: 20rem; object-fit: cover;" alt="...">
+            <div class="card-body px-4 py-3">
+                <h5 class="card-title mb-3">Digital Media Creation</h5>
+                <p class="card-text textgray">Blends Creativity and Technology </p>
+                <p class="card-text textgray"> Captivating Visuals Immersive Soundscapes </p>
+                <p class="card-text textgray"> Innovative 3D Anamorphic Content </p>
+                <p class="card-text textgray">Commitment to Excellence Digital </p>
+                <p class="card-text textgray"> Transformation </p>
+            </div>
+        </div>
+        <div class="col-md-3 card border-0 rounded shadow p-0 cards">
+            <img src="./assets/home/Automation.jpeg" class="card-img-top" style="height: 20rem; object-fit: cover;"
+                alt="...">
+            <div class="card-body px-4 py-3 mb-3">
+                <h5 class="card-title mb-3">Automation</h5>
+                <p class="card-text textgray">Automation </p>
+                <p class="card-text textgray"> OT Services - Assessment </p>
+                <p class="card-text textgray"> OT Services - Productof the
+                    card's content.
+                <p>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-between my-5">
+        <div class="col-md-3 card border-0 rounded shadow p-0 cards">
+            <img src="./assets/home/IT & Networking.jpeg" class="card-img-top" style="height: 20rem; object-fit: cover;"
+                alt="...">
+            <div class="card-body px-4 py-3">
+                <h5 class="card-title mb-3">IT & Networking</h5>
+                <p class="card-text textgray">Managed IT Services Computer Network & Infrastructure Installation
+                    Hardware </p>
+                <p class="card-text textgray"> installations and maintenance Network</p>
+                <p class="card-text textgray"> Security Software development Software as a service Troubleshooting and
+                    technical support</p>
+            </div>
+        </div>
+        <div class="col-md-3 card border-0 rounded shadow p-0 cards">
+            <img src="./assets/home/Electrical Solutions.jpeg" class="card-img-top"
+                style="height: 20rem; object-fit: cover;" alt="...">
+            <div class="card-body px-4 py-3">
+                <h5 class="card-title mb-3">Electrical Solutions</h5>
+                <p class="card-text textgray">EV Charging </p>
+                <p class="card-text textgray"> Solar Power Solution </p>
+            </div>
+        </div>
+        <div class="col-md-3 card border-0 rounded shadow p-0 cards">
+            <img src="./assets/home/Flow Control & Comprehensive.jpeg" class="card-img-top"
+                style="height: 20rem; object-fit: cover;" alt="...">
+            <div class="card-body px-4 py-3 mb-3">
+                <h5 class="card-title mb-3">Flow Control & Comprehensive</h5>
+                <p class="card-text textgray">Valves </p>
+                <p class="card-text textgray"> Actuators </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- mobile version  -->
+<div class="container d-flex flex-column gap-5 d-md-none">
+    <div class="d-flex justify-content-center align-items-center my-5">
+        <h2 class="mt-5">What <span class="textred">We</span> Do</h2>
+    </div>
+    <div class=" row d-flex flex-column gap-5 my-5 px-5 justify-content-center align-items-center">
+        <div class="col-8 card border-0 rounded shadow p-0 cards">
+            <img src="./assets/home/Audio Visual ICT Solution.jpeg" class="card-img-top"
+                style="height: 30rem; object-fit: cover;" alt="...">
+            <div class="card-body px-4 py-3">
+                <h5 class="card-title mb-3">Audio Visual ICT Solution</h5>
+                <p class="card-text textgray">Video Conferencing Systems Digital </p>
+                <p class="card-text textgray"> Signages Professional Audio Systems </p>
+                <p class="card-text textgray"> Theatre & Stage AV Solutions ICT Solutions </p>
+                <p class="card-text textgray">BGM & PA System Outdoor Music System & Indoor Music System</p>
+            </div>
+        </div>
+        <div class="col-8 card border-0 rounded shadow p-0 cards">
+            <img src="./assets/home/Digital Media Creation.jpeg" class="card-img-top"
+                style="height: 30rem; object-fit: cover;" alt="...">
+            <div class="card-body px-4 py-3">
+                <h5 class="card-title mb-3">Digital Media Creation</h5>
+                <p class="card-text textgray">Blends Creativity and Technology </p>
+                <p class="card-text textgray"> Captivating Visuals Immersive Soundscapes </p>
+                <p class="card-text textgray"> Innovative 3D Anamorphic Content </p>
+                <p class="card-text textgray">Commitment to Excellence Digital </p>
+                <p class="card-text textgray"> Transformation </p>
+            </div>
+        </div>
+        <div class="col-8 card border-0 rounded shadow p-0 cards">
+            <img src="./assets/home/Automation.jpeg" class="card-img-top" style="height: 30rem; object-fit: cover;"
+                alt="...">
+            <div class="card-body px-4 py-3 mb-3">
+                <h5 class="card-title mb-3">Automation</h5>
+                <p class="card-text textgray">Automation </p>
+                <p class="card-text textgray"> OT Services - Assessment </p>
+                <p class="card-text textgray"> OT Services - Productof the
+                    card's content.
+                <p>
+            </div>
+        </div>
+    </div>
+    <div class="row d-flex flex-column gap-5 my-5 px-5 justify-content-center align-items-center">
+        <div class="col-8 card border-0 rounded shadow p-0 cards">
+            <img src="./assets/home/IT & Networking.jpeg" class="card-img-top" style="height: 30rem; object-fit: cover;"
+                alt="...">
+            <div class="card-body px-4 py-3">
+                <h5 class="card-title mb-3">IT & Networking</h5>
+                <p class="card-text textgray">Managed IT Services Computer Network & Infrastructure Installation
+                    Hardware </p>
+                <p class="card-text textgray"> installations and maintenance Network</p>
+                <p class="card-text textgray"> Security Software development Software as a service Troubleshooting and
+                    technical support</p>
+            </div>
+        </div>
+        <div class="col-8 card border-0 rounded shadow p-0 cards">
+            <img src="./assets/home/Electrical Solutions.jpeg" class="card-img-top"
+                style="height: 30rem; object-fit: cover;" alt="...">
+            <div class="card-body px-4 py-3">
+                <h5 class="card-title mb-3">Electrical Solutions</h5>
+                <p class="card-text textgray">EV Charging </p>
+                <p class="card-text textgray"> Solar Power Solution </p>
+            </div>
+        </div>
+        <div class="col-8 card border-0 rounded shadow p-0 cards">
+            <img src="./assets/home/Flow Control & Comprehensive.jpeg" class="card-img-top"
+                style="height: 30rem; object-fit: cover;" alt="...">
+            <div class="card-body px-4 py-3 mb-3">
+                <h5 class="card-title mb-3">Flow Control & Comprehensive</h5>
+                <p class="card-text textgray">Valves </p>
+                <p class="card-text textgray"> Actuators </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- xxxxxxxxxxx what we do section xxxxxxxxxxx   -->
+
+<!-- testemonial section   -->
+<div class="bg-body-tertiary py-3 ">
+    <div class="container">
+        <h1 class="text-start mgx-10">We <span class="textred">trust</span> the people we <span
+                class="textgreen">believe</span> in</h1>
+        <div id="testimonialCarousel" class="carousel pdb-5">
+            <div class="carousel-inner">
+                <div class="carousel-item active p-3 rounded-5">
+                    <div class="card shadow-sm rounded-3 p-2">
+                        <div class="quotes display-2 text-body-tertiary">
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <div class="card-body" style="min-width: 54rem;">
+                            <img src="./assets/home/qouts.png" alt="">
+                            <p class="card-text">I'm totally unconvinced that two people can find a person they haven't
+                                known previously, and become an effective co-founder</p>
+                            <div class="d-flex align-items-center pt-4">
+                                <img src="./assets/home/andrew.png" alt="">
+                                <div>
+                                    <h5 class="card-title fw-bold">Andrew Wilkins</h5>
+                                    <span class="text-secondary">Managing Director, Yess Companyy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active p-3 rounded-5">
+                    <div class="card shadow-sm rounded-3 p-2">
+                        <div class="quotes display-2 text-body-tertiary">
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <div class="card-body" style="min-width: 54rem;">
+                            <img src="./assets/home/qouts.png" alt="">
+                            <p class="card-text">Easy to use, reasonably priced, and ensures I don’t drop the ball on
+                                following up with my leads!</p>
+                            <div class="d-flex align-items-center pt-4">
+                                <img src="./assets/home/daisy pheleps.png" alt="">
+                                <div>
+                                    <h5 class="card-title fw-bold">Daisy Phelps</h5>
+                                    <span class="text-secondary">Digital Marketing Director, Monatc</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active p-3 rounded-5">
+                    <div class="card shadow-sm rounded-3 p-2">
+                        <div class="quotes display-2 text-body-tertiary">
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <div class="card-body" style="min-width: 54rem;">
+                            <img src="./assets/home/qouts.png" alt="">
+                            <p class="card-text">I'm totally unconvinced that two people can find a person they haven't
+                                known previously, and become an effective co-founder</p>
+                            <div class="d-flex align-items-center pt-4">
+                                <img src="./assets/home/andrew.png" alt="">
+                                <div>
+                                    <h5 class="card-title fw-bold">Andrew Wilkins</h5>
+                                    <span class="text-secondary">Managing Director, Yess Companyy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active p-3 rounded-5">
+                    <div class="card shadow-sm rounded-3 p-2">
+                        <div class="quotes display-2 text-body-tertiary">
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <div class="card-body" style="min-width: 54rem;">
+                            <img src="./assets/home/qouts.png" alt="">
+                            <p class="card-text">Easy to use, reasonably priced, and ensures I don’t drop the ball on
+                                following up with my leads!</p>
+                            <div class="d-flex align-items-center pt-4">
+                                <img src="./assets/home/daisy pheleps.png" alt="">
+                                <div>
+                                    <h5 class="card-title fw-bold">Daisy Phelps</h5>
+                                    <span class="text-secondary">Digital Marketing Director, Monatc</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+<!-- xxxxxxxxxxx testemonial section xxxxxxxxxxx   -->
+
+<!-- footer section   -->
+<div class="footer">
+    <div class="row p-5 justify-content-between">
+        <div class="col-sm-4 d-flex align-items-center justify-content-center">
+            <img src="./assets/eis logo.png" class="w-50 d-lg-none" alt="">
+            <img src="./assets/eis logo.png" class="d-none d-lg-block" alt="">
+        </div>
+        <div class="col-sm-4 d-none d-lg-flex d-flex align-items-center justify-content-center ">
+            <p>At EIS, we transform industries and educational institutions with advanced technology. By integrating
+                Energy Automation, IoT, Smart Education, and AV & IT, we create sustainable environments focused on
+                quality, innovation, and customer satisfaction.</p>
+        </div>
+        <div class="col-sm-4 d-flex flex-column align-items-center justify-content-start ">
+            <div class="d-flex flex-column gap-3">
+                <h5>Home</h5>
+                <h5>About Us</h5>
+                <h5>Solutions</h5>
+                <h5>Contact</h5>
+            </div>
+        </div>
+
+    </div>
+    <div class="bg-black d-flex justify-content-between align-items-center p-5">
+        <p class="text-white">©2022-2023 EIS</p>
+        <div class="d-flex gap-5 text-white">
+            <p>Term of Service</p>
+            <p>Privacy Policy</p>
+            <p>Language</p>
+        </div>
+        <div class="d-flex flex-row align-items-center gap-3">
+            <i class="fa-solid fa-globe text-white fs-3"></i>
+            <p class="text-white">English</p>
+        </div>
+    </div>
+</div>
+<!-- xxxxxxxxxxx footer section xxxxxxxxxxx   -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+<script>
+    const multipleItemCarousel = document.querySelector("#testimonialCarousel");
+
+    if (window.matchMedia("(min-width:576px)").matches) {
+        const carousel = new bootstrap.Carousel(multipleItemCarousel, {
+            interval: false,
+        });
+
+        var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+        var cardWidth = $(".carousel-item").width();
+
+        var scrollPosition = 0;
+
+        $(".carousel-control-next").on("click", function () {
+            if (scrollPosition < carouselWidth - cardWidth * 3) {
+                console.log("next");
+                scrollPosition = scrollPosition + cardWidth;
+                $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 800);
+            }
+        });
+        $(".carousel-control-prev").on("click", function () {
+            if (scrollPosition > 0) {
+                scrollPosition = scrollPosition - cardWidth;
+                $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 800);
+            }
+        });
+    } else {
+        $(multipleItemCarousel).addClass("slide");
+    }
+</script>
 </body>
 
 </html>
