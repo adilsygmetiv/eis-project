@@ -199,10 +199,9 @@
     </div>
 </div>
 <!-- mobile  -->
-<div class="d-block d-sm-none bg-img justify-content-center align-items-center">
+<div class="d-block d-md-none bg-img justify-content-center align-items-center">
     <div class="d-flex justify-content-center align-items-center z-2" style="height: 100%;">
-        <h1 class="text-white text-center"
-            style="font-size: 5rem;">Connecting
+        <h1 class="text-white text-center" style="font-size: 5rem;">Connecting
             Industries with Advanced Solutions</h1>
     </div>
 </div>
@@ -368,10 +367,14 @@
 <!-- xxxxxxxxxxx what we do section xxxxxxxxxxx   -->
 
 <!-- testemonial section   -->
-<div class="bg-body-tertiary py-3 ">
+<div class="bg-body-tertiary py-3">
     <div class="container">
-        <h1 class="text-start mgx-10">We <span class="textred">trust</span> the people we <span
+        <h1 class="text-start mgx-10 d-none d-md-block">We <span class="textred">trust</span> the people we <span
                 class="textgreen">believe</span> in</h1>
+        <!-- mobile  -->
+        <h1 class="text-start mgx-10 d-md-none text-center">We <span class="textred">trust</span> the people we <span
+                class="textgreen">believe</span> in</h1>
+
         <div id="testimonialCarousel" class="carousel pdb-5">
             <div class="carousel-inner">
                 <div class="carousel-item active p-3 rounded-5">
@@ -380,7 +383,7 @@
                             <i class="bi bi-quote"></i>
                         </div>
                         <div class="card-body" style="min-width: 54rem;">
-                            <img src="./assets/home/qouts.png" alt="">
+                            <img src="./assets/home/qouts.png" alt="" style="height: 30px; width: 40px;">
                             <p class="card-text">I'm totally unconvinced that two people can find a person they haven't
                                 known previously, and become an effective co-founder</p>
                             <div class="d-flex align-items-center pt-4">
@@ -399,7 +402,7 @@
                             <i class="bi bi-quote"></i>
                         </div>
                         <div class="card-body" style="min-width: 54rem;">
-                            <img src="./assets/home/qouts.png" alt="">
+                            <img src="./assets/home/qouts.png" alt="" style="height: 30px; width: 40px;">
                             <p class="card-text">Easy to use, reasonably priced, and ensures I don’t drop the ball on
                                 following up with my leads!</p>
                             <div class="d-flex align-items-center pt-4">
@@ -418,7 +421,7 @@
                             <i class="bi bi-quote"></i>
                         </div>
                         <div class="card-body" style="min-width: 54rem;">
-                            <img src="./assets/home/qouts.png" alt="">
+                            <img src="./assets/home/qouts.png" alt="" style="height: 30px; width: 40px;">
                             <p class="card-text">I'm totally unconvinced that two people can find a person they haven't
                                 known previously, and become an effective co-founder</p>
                             <div class="d-flex align-items-center pt-4">
@@ -437,7 +440,7 @@
                             <i class="bi bi-quote"></i>
                         </div>
                         <div class="card-body" style="min-width: 54rem;">
-                            <img src="./assets/home/qouts.png" alt="">
+                            <img src="./assets/home/qouts.png" alt="" style="height: 30px; width: 40px;">
                             <p class="card-text">Easy to use, reasonably priced, and ensures I don’t drop the ball on
                                 following up with my leads!</p>
                             <div class="d-flex align-items-center pt-4">
@@ -450,8 +453,6 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
                 data-bs-slide="prev">
@@ -466,21 +467,27 @@
         </div>
     </div>
 </div>
+
+
+
+<!--xxxxxxxxxxxxx mobile section  xxxxxxxxxxxxx -->
+
+
 <!-- xxxxxxxxxxx testemonial section xxxxxxxxxxx   -->
 
 <!-- footer section   -->
-<div class="footer">
+<div class="footer d-none d-md-block">
     <div class="row p-5 justify-content-between">
         <div class="col-sm-4 d-flex align-items-center justify-content-center">
-            <img src="./assets/eis logo.png" class="w-50 d-lg-none" alt="">
-            <img src="./assets/eis logo.png" class="d-none d-lg-block" alt="">
+            <img src="./assets/eis logo.png" class="" alt="">
         </div>
-        <div class="col-sm-4 d-none d-lg-flex d-flex align-items-center justify-content-center ">
+        <div class="col-sm-4 d-flex align-items-center justify-content-center ">
             <p>At EIS, we transform industries and educational institutions with advanced technology. By integrating
                 Energy Automation, IoT, Smart Education, and AV & IT, we create sustainable environments focused on
                 quality, innovation, and customer satisfaction.</p>
         </div>
-        <div class="col-sm-4 d-flex flex-column align-items-center justify-content-start ">
+
+        <div class="col-sm-4 d-flex flex-column align-items-center justify-content-start">
             <div class="d-flex flex-column gap-3">
                 <h5>Home</h5>
                 <h5>About Us</h5>
@@ -488,7 +495,6 @@
                 <h5>Contact</h5>
             </div>
         </div>
-
     </div>
     <div class="bg-black d-flex justify-content-between align-items-center p-5">
         <p class="text-white">©2022-2023 EIS</p>
@@ -504,6 +510,41 @@
     </div>
 </div>
 <!-- xxxxxxxxxxx footer section xxxxxxxxxxx   -->
+
+
+<!-- footer section   -->
+<div class="footer d-block d-md-none">
+    <div class=" p-5 d-flex flex-row justify-content-between">
+        <div class="col-sm-4 d-flex align-items-center justify-content-center">
+            <img src="./assets/eis logo.png" class="w-25" alt="">
+        </div>
+        
+
+        <div class="col-sm-4 d-flex flex-column align-items-center justify-content-start">
+            <div class="d-flex flex-column gap-3">
+                <h5>Home</h5>
+                <h5>About Us</h5>
+                <h5>Solutions</h5>
+                <h5>Contact</h5>
+            </div>
+        </div>
+    </div>
+    <div class="bg-black d-flex justify-content-between align-items-center p-5">
+        <p class="text-white">©2022-2023 EIS</p>
+        <div class="d-flex gap-5 text-white">
+            <p>Term of Service</p>
+            <p>Privacy Policy</p>
+            <p>Language</p>
+        </div>
+        <div class="d-flex flex-row align-items-center gap-3">
+            <i class="fa-solid fa-globe text-white fs-3"></i>
+            <p class="text-white">English</p>
+        </div>
+    </div>
+</div>
+<!-- xxxxxxxxxxx footer section xxxxxxxxxxx   -->
+
+
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
