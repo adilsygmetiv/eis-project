@@ -108,6 +108,23 @@ h6 {
     background-color: var(--boxbg);
 }
 
+.dropdown-menu {
+  filter: blur(0.5);
+  padding: 0.5rem;
+  background-color: rgba(240, 248, 255, 0.7);
+  border: none;
+}
+
+.dropdown-item:hover {
+  background-color: var(--mainColor);
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.active {
+  color: var(--mainColor) !important;
+}
+
 .ath-img{
     background-image: url(./assets/about/youtr\ part.png);
     background-attachment:fixed;
