@@ -1,0 +1,153 @@
+:root {
+  --secondFont: "Lato", sans-serif;
+  --mainColor: rgba(234, 0, 0, 1);
+  --secondaryColor: rgba(242, 245, 246, 1);
+  --textblue: rgba(0, 119, 255, 1);
+  --textgreen: rgba(0, 164, 44, 1);
+  --boxbg:#F2F5F6;
+  --textcolor:#404040
+}
+html {
+  font-family: var(--secondFont);
+  font-size: 10px;
+}
+
+body {
+  font-family: var(--secondFont);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 7rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 6rem;
+}
+
+h3 {
+  font-size: 5.8rem;
+}
+
+h4 {
+  font-size: 3.2rem;
+}
+
+h5 {
+  font-size: 2.5rem;
+}
+
+h6 {
+  font-size: 2rem;
+}
+
+.mg-4 {
+  margin: 4rem;
+}
+.mg-9 {
+  margin: 9rem;
+}
+
+.mgx-4 {
+  margin: 4rem 0;
+}
+.mgx-8 {
+  margin: 8rem 0;
+}
+.mgx-9 {
+  margin: 9rem 0;
+}
+.mgx-10 {
+  margin: 10rem 0;
+}
+
+.pgy-9{
+    padding: 9rem 0;
+}
+
+.pdb-5 {
+  padding-bottom: 5rem;
+}
+
+.gap-9{
+    gap: 9rem;
+}
+
+.textred {
+  color: var(--mainColor);
+}
+.textblue {
+  color: var(--textblue);
+}
+.textgreen {
+  color: var(--textgreen);
+}
+
+.textcolor{
+    color: var(--textcolor);
+}
+
+.active{
+    color: var(--mainColor) !important
+}
+
+.footer{
+    overflow-x: hidden;
+}
+
+.boxbg{
+    background-color: var(--boxbg);
+}
+
+.ath-img{
+    background-image: url(./assets/about/youtr\ part.png);
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+}
+
+.bg1{
+    background-image: url(./assets/about/wt1.jpg);
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center start;
+    border-radius:1rem;
+}
+.bg2{
+    background-image: url(./assets/about/wt2.jpg);
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center start;
+    border-radius:1rem;
+}
+.bg3{
+    background-image: url(./assets/about/wt3.jpg);
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center start;
+    border-radius:1rem;
+}
+.bg4{
+    background-image: url(./assets/about/wt4.jpg);
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center start;
+    border-radius:1rem;
+}
+
+

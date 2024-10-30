@@ -108,6 +108,10 @@ h6 {
   color: var(--textgreen);
 }
 
+.active{
+  color: var(--mainColor) !important
+}
+
 .textgray {
   color: gray;
   opacity: 0;
