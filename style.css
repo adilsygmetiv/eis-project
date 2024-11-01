@@ -5,6 +5,7 @@
   --secondaryhoverColor: rgb(222, 233, 236);
   --textblue: rgba(0, 119, 255, 1);
   --textgreen: rgba(0, 164, 44, 1);
+  --bbox:#00000080;
 }
 html {
   font-family: var(--secondFont);
@@ -170,6 +171,71 @@ h6 {
   color: var(--mainColor);
 }
 
+
+.wwd1{
+  background-image: url('./assets/home/Audio Visual ICT Solution.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.wwd2{
+  background-image: url('./assets/home/Digital Media Creation.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.wwd3{
+  background-image: url('./assets/home/Automation.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.wwd4{
+  background-image: url('./assets/home/IT & Networking.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.wwd5{
+  background-image: url('./assets/home/Electrical Solutions.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.wwd6{
+  background-image: url('./assets/home/Flow Control & Comprehensive.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+.mediator {
+  opacity: 0;
+  max-height: 0; /* Start hidden with no height */
+  overflow: hidden; /* Hide content when not fully expanded */
+  transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
+}
+
+/* Display .mediator content on hover */
+.wwd:hover .mediator {
+  opacity: 1; /* Fade in */
+  max-height: 300px; /* Adjust to allow space for all content */
+}
+
+.bbc {
+  background-color: var(--bbox);
+}
 
 @media (max-width: 576px) {
   html {
