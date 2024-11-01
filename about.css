@@ -2,10 +2,11 @@
   --secondFont: "Lato", sans-serif;
   --mainColor: rgba(234, 0, 0, 1);
   --secondaryColor: rgba(242, 245, 246, 1);
+  --secondaryhoverColor: rgb(222, 233, 236);
   --textblue: rgba(0, 119, 255, 1);
   --textgreen: rgba(0, 164, 44, 1);
-  --boxbg:#F2F5F6;
-  --textcolor:#404040
+  --boxbg: #f2f5f6;
+  --textcolor: #404040;
 }
 html {
   font-family: var(--secondFont);
@@ -70,16 +71,16 @@ h6 {
   margin: 10rem 0;
 }
 
-.pgy-9{
-    padding: 9rem 0;
+.pgy-9 {
+  padding: 9rem 0;
 }
 
 .pdb-5 {
   padding-bottom: 5rem;
 }
 
-.gap-9{
-    gap: 9rem;
+.gap-9 {
+  gap: 9rem;
 }
 
 .textred {
@@ -92,20 +93,20 @@ h6 {
   color: var(--textgreen);
 }
 
-.textcolor{
-    color: var(--textcolor);
+.textcolor {
+  color: var(--textcolor);
 }
 
-.active{
-    color: var(--mainColor) !important
+.active {
+  color: var(--mainColor) !important;
 }
 
-.footer{
-    overflow-x: hidden;
+.footer {
+  overflow-x: hidden;
 }
 
-.boxbg{
-    background-color: var(--boxbg);
+.boxbg {
+  background-color: var(--boxbg);
 }
 
 .dropdown-menu {
@@ -125,46 +126,68 @@ h6 {
   color: var(--mainColor) !important;
 }
 
-.ath-img{
-    background-image: url(./assets/about/youtr\ part.png);
-    background-attachment:fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50vh;
+.ath-img {
+  background-image: url(./assets/about/youtr\ part.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
 }
 
-.bg1{
-    background-image: url(./assets/about/wt1.jpg);
-    height: 25rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center start;
-    border-radius:1rem;
+.bg1 {
+  background-image: url(./assets/about/wt1.jpg);
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center start;
+  border-radius: 1rem;
 }
-.bg2{
-    background-image: url(./assets/about/wt2.jpg);
-    height: 25rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center start;
-    border-radius:1rem;
+.bg2 {
+  background-image: url(./assets/about/wt2.jpg);
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center start;
+  border-radius: 1rem;
 }
-.bg3{
-    background-image: url(./assets/about/wt3.jpg);
-    height: 25rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center start;
-    border-radius:1rem;
+.bg3 {
+  background-image: url(./assets/about/wt3.jpg);
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center start;
+  border-radius: 1rem;
 }
-.bg4{
-    background-image: url(./assets/about/wt4.jpg);
-    height: 25rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center start;
-    border-radius:1rem;
+.bg4 {
+  background-image: url(./assets/about/wt4.jpg);
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center start;
+  border-radius: 1rem;
 }
 
+.boxbg:hover {
+  background-color: var(--secondaryhoverColor);
+}
 
+.togradee {
+  color: var(--mainColor);
+}
+
+.tograde:hover {
+  color: var(--mainColor);
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 3px;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 5px;
+  }
+}

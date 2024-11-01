@@ -2,6 +2,7 @@
     --secondFont: "Lato", sans-serif;
     --mainColor: rgba(234, 0, 0, 1);
     --secondaryColor: rgba(242, 245, 246, 1);
+    --secondaryhoverColor: rgb(222, 233, 236);
     --textblue: rgba(0, 119, 255, 1);
     --textgreen: rgba(0, 164, 44, 1);
     --boxbg: #f2f5f6;
@@ -145,6 +146,9 @@
     color: var(--mainColor) !important;
   }
   
+  .certified-color:hover{
+    background-color: var(--secondaryhoverColor)
+  }
   main {
     background-image: url(./assets/hm/main.jpg);
     width: 100vw;
@@ -160,6 +164,10 @@
   
   .shadow-box{
       box-shadow: 10px 10px 20px rgba(94, 28, 28, 0.808);
+  }
+
+  .tograde:hover{
+    color: var(--mainColor);
   }
   
   @media (max-width: 576px) {

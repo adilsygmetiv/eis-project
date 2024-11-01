@@ -2,6 +2,7 @@
   --secondFont: "Lato", sans-serif;
   --mainColor: rgba(234, 0, 0, 1);
   --secondaryColor: rgba(242, 245, 246, 1);
+  --secondaryhoverColor: rgb(222, 233, 236);
   --textblue: rgba(0, 119, 255, 1);
   --textgreen: rgba(0, 164, 44, 1);
   --boxbg: #f2f5f6;
@@ -116,9 +117,14 @@ h6 {
   background-color: var(--boxbg);
 }
 
+.box:hover .bbox{
+  transform: scale(1,1.1);
+}
+
 .bbox{
     background-color: var(--bbox);
 }
+
 
 .dropdown-menu {
   filter: blur(0.5);
@@ -191,6 +197,13 @@ main {
   height: 50rem;
 }
 
+.tograde:hover{
+  color: var(--mainColor);
+}
+
+.certified-color:hover{
+  background-color: var(--secondaryhoverColor)
+}
 
 @media (max-width: 576px) {
     html {

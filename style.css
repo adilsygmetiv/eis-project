@@ -2,6 +2,7 @@
   --secondFont: "Lato", sans-serif;
   --mainColor: rgba(234, 0, 0, 1);
   --secondaryColor: rgba(242, 245, 246, 1);
+  --secondaryhoverColor: rgb(222, 233, 236);
   --textblue: rgba(0, 119, 255, 1);
   --textgreen: rgba(0, 164, 44, 1);
 }
@@ -69,6 +70,14 @@ h6 {
   padding-bottom:5rem ;
 }
 
+.gap-9{
+  gap: 9rem;
+}
+
+.bb{
+  display: none;
+}
+
 .dropdown-menu {
   filter: blur(0.5);
   padding: 0.5rem;
@@ -98,6 +107,10 @@ h6 {
   background-color: var(--secondaryColor);
 }
 
+.certified-color:hover{
+  background-color: var(--secondaryhoverColor)
+}
+
 .textred {
   color: var(--mainColor);
 }
@@ -114,9 +127,15 @@ h6 {
 
 .textgray {
   color: gray;
-  opacity: 0;
+  opacity: 1;
 }
 
+.cards-body{
+  display: none;
+}
+.cards:hover .bb{
+  display: block;
+}
 .cards:hover .textgray {
   opacity: 1;
 }
@@ -146,6 +165,11 @@ h6 {
 .bg-img h1{
   z-index: 999;
 }
+
+.tograde:hover{
+  color: var(--mainColor);
+}
+
 
 @media (max-width: 576px) {
   html {
