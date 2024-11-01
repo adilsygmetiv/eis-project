@@ -1,0 +1,237 @@
+:root {
+    --secondFont: "Lato", sans-serif;
+    --mainColor: rgba(234, 0, 0, 1);
+    --secondaryColor: rgba(242, 245, 246, 1);
+    --textblue: rgba(0, 119, 255, 1);
+    --textgreen: rgba(0, 164, 44, 1);
+    --boxbg: #f2f5f6;
+    --textcolor: #404040;
+    --bbox: #00000080;
+    --text-gradient: linear-gradient(
+      193deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(0, 68, 157, 1) 100%
+    );
+  }
+  html {
+    font-family: var(--secondFont);
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: var(--secondFont);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  p {
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 7rem;
+    font-weight: 600;
+  }
+  
+  h2 {
+    font-size: 6rem;
+  }
+  
+  h3 {
+    font-size: 5.8rem;
+  }
+  .f40 {
+    font-size: 4rem;
+  }
+  
+  h4 {
+    font-size: 3.2rem;
+  }
+  
+  h5 {
+    font-size: 2.5rem;
+  }
+  
+  h6 {
+    font-size: 2rem;
+  }
+  
+  .mg-4 {
+    margin: 4rem;
+  }
+  .mg-9 {
+    margin: 9rem;
+  }
+  
+  .mgx-4 {
+    margin: 4rem 0;
+  }
+  .mgx-8 {
+    margin: 8rem 0;
+  }
+  .mgx-9 {
+    margin: 9rem 0;
+  }
+  .mgx-10 {
+    margin: 10rem 0;
+  }
+  
+  .p-9 {
+    padding: 0 0 9rem 0;
+  }
+  .p-10 {
+    padding: 0 0 10rem 0;
+  }
+  
+  .pgy-9 {
+    padding: 9rem 0;
+  }
+  
+  .pdb-5 {
+    padding-bottom: 5rem;
+  }
+  
+  .gap-9 {
+    gap: 9rem;
+  }
+  
+  .textred {
+    color: var(--mainColor);
+  }
+  .textblue {
+    color: var(--textblue);
+  }
+  .textgreen {
+    color: var(--textgreen);
+  }
+  
+  .textcolor {
+    color: var(--textcolor);
+  }
+  
+  .active {
+    color: var(--mainColor) !important;
+  }
+  
+  .footer {
+    overflow-x: hidden;
+  }
+  
+  .boxbg {
+    background-color: var(--boxbg);
+  }
+  
+  .bbox {
+    background-color: var(--bbox);
+  }
+  
+  .dropdown-menu {
+    filter: blur(0.5);
+    padding: 0.5rem;
+    background-color: rgba(240, 248, 255, 0.7);
+    border: none;
+  }
+  
+  .dropdown-item:hover {
+    background-color: var(--mainColor);
+    color: white;
+    border-radius: 0.5rem;
+  }
+  
+  .active {
+    color: var(--mainColor) !important;
+  }
+
+
+
+  .image-container {
+    text-align: center;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+.footer-text {
+    font-weight: bold;
+    margin-top: -70px;
+    font-size: 50px;
+    color:white;
+}
+  
+  main {
+    background-image: url(./assets/flow\ and\ com/main.jpg);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .text-gradient {
+    background: var(--text-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .shadow-box{
+      box-shadow: 10px 10px 20px rgba(94, 28, 28, 0.808);
+  }
+  
+  @media (max-width: 576px) {
+    html {
+      font-size: 2px;
+    }
+
+    div.footer-text {
+      font-weight: bold;
+    margin-top: -20px;
+   font-size: 25px;
+    color:white;
+    }
+
+    p {
+      font-size: 2.8rem;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    html {
+      font-size: 5px;
+    }
+
+    div.footer-text {
+      font-weight: bold;
+    margin-top: -20px;
+   font-size: 25px;
+    color:white;
+    }
+
+    p {
+      font-size: 2.8rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    @media (min-width: 1024px) and (max-width: 1366px) {
+      html {
+        font-size: 6px;
+      }
+
+      div.footer-text {
+        font-weight: bold;
+      margin-top: -20px;
+     font-size: 20px;
+      color:white;
+      }
+  
+      p {
+        font-size: 2.8rem;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+  
