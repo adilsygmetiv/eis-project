@@ -154,12 +154,33 @@
     max-width: 100%;
     height: auto;
 }
+
+
+
 .footer-text {
-    font-weight: bold;
-    margin-top: -70px;
-    font-size: 50px;
-    color:white;
+  position: relative;
+  border: 2px solid transparent;
+  border-image: linear-gradient(90deg, #FFFFFF, #1595F0) 1;
+  
+  border-top: none; /* Remove top border */
+  border-radius: 0 0 5px 5px; /* Rounded corners at the bottom */
+  padding: 10px;
+  background-color: transparent;
+  width: 100%;
+  max-width: 392px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bold;
+  margin:  auto; /* Center align in the container */
+  margin-top: -93px;
+  margin-left: 11rem;
+  font-weight: bold;
+   
+  font-size: 50px;
 }
+
+
   
   main {
     background-image: url(./assets/flow\ and\ com/main.jpg);
@@ -184,6 +205,7 @@
     }
 
     div.footer-text {
+      border: none;
       font-weight: bold;
     margin-top: -20px;
    font-size: 25px;
@@ -203,11 +225,14 @@
     }
 
     div.footer-text {
+      border: none;
       font-weight: bold;
-    margin-top: -20px;
-   font-size: 25px;
+    margin-top: -45px;
+   font-size: 20px;
     color:white;
+    margin-left: 1rem;
     }
+
 
     p {
       font-size: 2.8rem;
@@ -217,21 +242,21 @@
 
     @media (min-width: 1024px) and (max-width: 1366px) {
       html {
-        font-size: 6px;
+          font-size: 6px;
       }
-
+  
       div.footer-text {
-        font-weight: bold;
-      margin-top: -20px;
-     font-size: 20px;
-      color:white;
+          font-weight: bold;
+          margin-top: -20px;
+          font-size: 0px;
+          color: rgb(143, 0, 0);
       }
   
       p {
-        font-size: 2.8rem;
-        margin: 0;
-        padding: 0;
+          font-size: 2.8rem;
+          margin: 0;
+          padding: 0;
       }
-    }
   }
   
+}
